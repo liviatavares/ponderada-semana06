@@ -208,7 +208,7 @@ c) A asserção é verdadeira e a razão é verdadeira, mas a razão não explic
 
 **d) A asserção é verdadeira e a razão é verdadeira, e a razão explica a asserção.**
 
-
+O polimorfismo significa que um método de mesmo nome pode ser utilizado de várias maneiras diferentes, contanto que seus argumentos mudem toda vez. Uma das maneiras de aplicar o polimorfismo é a sobrecarga de métodos, em que a escolha de qual método irá ser chamado pelo programa principal dependerá de acordo com o seu tipo de objeto. Portanto, tanto a asserção quanto a razão são verdadeiras, e a razão complementa e explica a asserção, pois exemplifica como o polimorfismo na POO pode responder à mesma mensagem de jeitos diferentes.
 
 
 ______
