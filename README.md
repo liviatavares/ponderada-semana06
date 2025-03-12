@@ -142,7 +142,7 @@ a) As duas afirmações são verdadeiras, e a segunda justifica a primeira.
 
 não há necessariamente uma relação de justificativa, mas sim de complemento, mas as duas são corretas. o extends serve para criar uma classe filha de uma classe pai já previamente existente. como exemplo, nos arquivos dos jogos de phaser, utilizamos comumente 
 ```javascript
- classe NomeDaClasse extends Phaser.Game {}
+ classe NomeDaClasse extends Phaser.Scene {}
 ```
 
 c) A primeira afirmação é verdadeira, e a segunda é falsa.
