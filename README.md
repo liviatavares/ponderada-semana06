@@ -208,7 +208,7 @@ c) A asserção é verdadeira e a razão é verdadeira, mas a razão não explic
 
 **d) A asserção é verdadeira e a razão é verdadeira, e a razão explica a asserção.**
 
-O polimorfismo significa que um método de mesmo nome pode ser utilizado de várias maneiras diferentes, contanto que seus argumentos mudem toda vez. Uma das maneiras de aplicar o polimorfismo é a sobrecarga de métodos, em que a escolha de qual método irá ser chamado pelo programa principal dependerá de acordo com o seu tipo de objeto. Portanto, tanto a asserção quanto a razão são verdadeiras, e a razão complementa e explica a asserção, pois exemplifica como o polimorfismo na POO pode responder à mesma mensagem de jeitos diferentes.
+O polimorfismo significa que um método de mesmo nome pode ser utilizado de várias maneiras diferentes, contanto que seus argumentos mudem toda vez. Uma das maneiras de aplicar o polimorfismo é a sobrecarga de métodos, em que a escolha de qual método irá ser chamado pelo programa principal dependerá de acordo com o seu tipo de objeto. Portanto, tanto a asserção quanto a razão são verdadeiras, e a razão complementa e explica a asserção, pois exemplifica como o polimorfismo na POO pode responder à mesma mensagem de jeitos diferentes (pela sobrecarga).
 
 
 ______
@@ -250,6 +250,8 @@ ______
 - Uma classe `Livro` que herda de `Produto` e modifica o método `calcularDesconto()`, aplicando um desconto de 20% no preço dos livros.
 
 Explique como funciona a herança nesse contexto e como você implementaria a modificação do método na classe `Livro`.
+
+Para essa resolução, interpretei que todos os produtos tinham desconto fixo de 10%, e todos os livros tinham desconto de 20%, além dos 10% já garantidos por serem produtos, ou seja, todos os livros têm 28% de desconto acima do preço original.
 
 ```javascript
 //criando a classe Produto
@@ -307,10 +309,10 @@ class Produto {
         //preço final do livro: 36"
         
         
-        //exemplo: criando um livro2
-        const livro2 = new Produto("livro2", 100)
-        livro2.calcularDesconto();
-        //quando o código roda só com esse livro2, mostra o seguinte:
+        //exemplo: criando um produto1
+        const produto1 = new Produto("produto1", 100)
+        produto1.calcularDesconto();
+        //quando o código roda só com esse produto1, mostra o seguinte:
         //"aqui, todos os produtos têm 10% de desconto!
         //preço do produto: 90"
 ```
